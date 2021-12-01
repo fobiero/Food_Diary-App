@@ -1,0 +1,27 @@
+{
+    "name": "gproject_food_diary",
+    "version": "1.0.0",
+    "description": "",
+    "main": "user.js",
+    "scripts": {
+        "start": "nodemon user.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/fobiero/Food_Diary-App.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/fobiero/Food_Diary-App/issues"
+    },
+    "homepage": "https://github.com/fobiero/Food_Diary-App#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "pg": "^8.7.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
+}
