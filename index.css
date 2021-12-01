@@ -34,3 +34,32 @@
   font-size: x-large;
   line-height: 1;
 }
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+  padding-left: 5rem;
+}
+nav ul li{
+  list-style: none;
+ 
+}
+nav ul li a{
+ color: black;
+ 
+}
+.signin{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 5rem;
+  margin-top: 1rem;
+}
+.signin li {
+  padding-top: 1rem;
+  list-style: none;
+}
+.signin li a{
+  color: black;
+  
+}
+
