@@ -1,0 +1,192 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --pri-color: #39B54A;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+.hero {
+    padding: 2rem 3rem;
+    align-items: center;
+}
+
+.intro-data {
+    padding: 5rem 0;
+}
+
+.h_title-main {
+    font-size: 3.2rem;
+    padding: 2rem 0 1rem 0;
+}
+
+.p_descr {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.mb-app img {
+    height: 30rem;
+}
+
+.getStarted {
+    background-color: var(--pri-color);
+    padding: .5rem 2rem;
+    color: #fff;
+    border: none;
+    font-size: 1.2rem;
+}
+
+
+/* finish hero  */
+
+.how-it-works {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.all-title {
+    font-weight: 400;
+    padding: 2rem 0;
+}
+
+.title-descr {
+    font-size: 1.1rem;
+    line-height: 2rem;
+}
+
+
+/* services  */
+
+.cardData {
+    border: none;
+    text-align: center;
+    padding: 2rem;
+}
+
+.card-item img {
+    width: auto;
+    height: 10rem;
+}
+
+.ser-title {
+    padding: 2rem 0 1rem 0;
+    text-transform: uppercase;
+}
+
+.sev-info {
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+
+/* end services  */
+
+.data {
+    background-color: var(--pri-color);
+    padding: 3rem 0;
+    align-items: center;
+}
+
+.data-info {
+    text-align: center;
+    color: #fff;
+}
+
+.data-info h3 {
+    text-transform: capitalize;
+    padding: 1rem 0;
+}
+
+.data-info p {
+    font-size: 1.5rem;
+}
+
+
+/* end stats section  */
+
+.faQs {
+    padding: 4rem 0;
+}
+
+.faQs .all-title {
+    text-align: center;
+}
+
+.feedB {
+    text-align: center;
+}
+
+.ple img {
+    width: 8rem;
+    border-radius: 50%;
+}
+
+.ple .p_name {
+    letter-spacing: .3rem;
+    font-size: 1.4rem;
+    padding-top: 1.3rem;
+}
+
+.ple p {
+    font-weight: 250;
+    padding: 1rem 0;
+}
+
+.rates i {
+    top: -20;
+    color: var(--pri-color);
+}
+
+
+/* footer  */
+
+footer {
+    background-color: var(--pri-color);
+    padding: 1.3rem 0;
+    color: #fff;
+    align-items: center;
+}
+
+footer h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.find {
+    cursor: pointer;
+    display: flex;
+}
+
+.find i {
+    /* padding: 0 2rem; */
+}
+
+.fa-envelope::after {
+    content: "info@fooddiary.com";
+    margin-right: 2rem;
+    margin-left: 1rem;
+    font-size: 1.1rem;
+    letter-spacing: .1rem;
+    font-weight: lighter;
+}
+
+.fa-phone-alt::after {
+    content: "(2547) 0989 87655";
+    margin-left: 1rem;
+    font-size: 1.1rem;
+    letter-spacing: .1rem;
+    font-weight: lighter;
+}
+
+.social i {
+    padding: .5rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
