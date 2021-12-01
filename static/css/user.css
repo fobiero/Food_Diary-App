@@ -6,6 +6,7 @@
 
 :root {
     --pri-color: #39B54A;
+    --sec-color: #F5F7FB;
 }
 
 body {
@@ -293,4 +294,53 @@ footer h3 {
     height: auto;
     border-radius: 5px;
     padding: 40px 30px 40px 0;
+}
+
+
+/* DASHBOARD  */
+
+.topnav {
+    padding: 2rem 0;
+    background-color: var(--pri-color);
+}
+
+.menu {
+    color: var(--sec-color);
+}
+
+.menu ul li {
+    list-style: none;
+    padding: 1rem 0;
+    font-size: 1.3rem;
+    border-bottom: 1px solid #eee;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #000;
+    text-transform: capitalize;
+}
+
+.options {
+    background-color: var(--sec-color);
+    padding: 4rem 0;
+    height: 100vh;
+}
+
+.cardView {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    cursor: pointer;
+    border-radius: 10px;
+    color: #000;
+    background-color: #fff;
+    padding: 6rem 1.2rem 1.2rem 1.2rem;
+}
+
+.cardView-active {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    cursor: pointer;
+    color: #fff;
+    border-radius: 10px;
+    background-color: var(--pri-color);
+    padding: 6rem 1.2rem 1.2rem 1.2rem;
 }
