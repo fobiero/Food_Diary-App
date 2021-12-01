@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&family=Inter&display=swap');
+.logostyle{
+  height: 80px;
+  width: 50px;
+  border-radius: 25px;
+  background-color: black;
+  border: 2px solid black;
+  
+}
+.logostyle h1{
+  color: white;
+  margin-left: 0.5rem;
+  font-weight: bolder;
+}
+#ood{
+  font-family: 'EB Garamond', 'serif';
+  font-weight: bolder;
+  font-size: xx-large;
+}
+#diary{
+  font-family: 'Inter', sans-serif;
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+.logostyle{
+  display: flex;
+  justify-content: space-between;
+}
+.logo-text{
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+  font-size: x-large;
+  line-height: 1;
+}
