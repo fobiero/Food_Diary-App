@@ -135,7 +135,6 @@ padding-top: 2rem;
   text-align: center;
 }
 .people{
-  padding-top: 5rem;
   text-align: center;
 }
 .people img{
@@ -145,4 +144,14 @@ padding-top: 2rem;
 }
 .people h4{
   margin-bottom: 2rem;
+}
+.blog{
+  text-align: center;
+  padding: 3rem 4rem;
+}
+.blog h2{
+  padding-bottom: 3rem;
+}
+.material-icons{
+  padding-top: 0.3rem;
 }
