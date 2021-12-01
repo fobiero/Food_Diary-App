@@ -94,3 +94,36 @@ nav ul li a{
 .work p{
   padding-top: 2rem;
 }
+.whatwedobox img{
+ height: 150px;
+ padding-left: 4rem;
+ padding-top: 2rem;
+}
+.whatwedo{
+  display: flex;
+justify-content: space-evenly;
+padding-top: 2rem;
+}
+.whatwedobox{
+  box-shadow: 3px 3px 3px 3px grey;
+}
+.whatwedobox h4{
+  padding-top: 1rem;
+  text-align: center;
+}
+.whatwedobox p{
+  text-align: center;
+}
+.stats{
+  margin-top: 2rem;
+  height: 100px;
+  background-color:#39B54A ;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.inputstats{
+  padding-top: 2rem;
+  font-weight: bolder;
+  text-align: center;
+}
