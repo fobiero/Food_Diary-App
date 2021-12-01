@@ -1,0 +1,115 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    
+    height: 700px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/background.jpg') !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+/*-------------------signUp--------------------------*/
+.signUp{
+height:auto;
+width:45%;
+background-color: #ffffff;
+margin-top:200px;
+border-radius:50px;
+}
+
+.signIn{
+height:400px;
+width:40%;
+background-color: #ffffff;
+margin-top:200px;
+border-radius:50px;
+}
+#loginbtn{
+    padding:15px 25px;
+    border-radius: 20px !important;
+    font-size: 25px !important;
+    
+}
+
+#h1{
+    color:green;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;    
+
+}
+.returnMessage{
+margin-left: 50px !important;
+}
+
+.inner-addon{
+    position: relative;
+}
+.glyphicon{
+    position:absolute;
+}
+.left-addon .glyphicon{
+    padding-top: 15px;
+    font-size: 35px;
+    padding-left: 8px;
+    /* color:blue */
+}
+.right-addon .glyphicon{
+    right:20px;
+    padding:20px 10px 10px 10px;
+}
+.inner-addon input{
+    margin-top: 10px;
+    margin-right: 10px;
+    width:90%;
+}
+/* input[type="text"]{
+
+    color:red;
+} */
+
+input{
+font-size: 20px !important;
+padding-left: 50px !important;
+    width:70% !important;
+    height:70px !important;
+    border-top-right-radius: 20px !important;    
+    border-bottom-right-radius: 20px !important;   
+    border:1px solid black !important; 
+}
+form{
+    margin-left:200px;
+}
+/* .btn-success{
+background-color: green !important;
+} */
+button{
+    padding:15px 25px;
+    border-radius: 20px !important;
+    font-size: 25px !important;
+    /* border-radius:50px !important; */
+    color:#ffffff !important; 
+    font-family: 'Times New Roman', Times, serif;
+font-weight: bold;
+margin-left:100px;
+
+}
+::placeholder{
+    font-weight: bold;
+   font-size:20px;
+    /* padding-left: 35px !important; */
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+a{
+    color: green;
+}
+/*-------------------signUp--------------------------*/
+
+.errors{
+    color:red !important;
+}
