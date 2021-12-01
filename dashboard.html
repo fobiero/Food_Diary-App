@@ -13,42 +13,56 @@
 
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="https://use.fontawesome.com/17941147c5.js"></script>
+<link rel="stylesheet" href="dashboard.css">
 </head>
 <body>
     <header>
-        <div class="logo">
-            <img src="" alt="">
-            <h1>LOGO<br> <span>DIARY</span></h1>
-        </div>
-        <div class="user-img">
-            <img src="" alt="">
-            <p class="user-desc">You are <br> Logged in as:</p>
-        </div>
-        <div class="search">
-            <img src="" alt="">
-        </div>
-        <nav>
-            <h1>MENU</h1>
-            <img src="" alt="">
-        </nav>
+       <h3>Menu</h3>
+        <input type="text" placeholder="Filter-date" >
+        <p>User Logged in <span><i class="fa fa-user" aria-hidden="true"></i></span></p>
+        
     </header>
     <div class="row">
-        <div class="col-md-3">
-            <img src="" alt="">
-            
+        <div class="col-md-2">
+            <nav>
+                <ul>
+                   <a href="#"> <li>Home</li></a>
+                   <a href="#"> <li>Week</li></a>
+                   <a href="#"> <li>Month</li></a>
+                   <a href="#"> <li>Stats</li></a> 
+                   <a href="#"> <li>Reminder</li></a>          
+                </ul>
+            </nav>
         </div>
-        <div class="col-md-6">
-            <form action="">
-                <input class="date"type="text">
-            </form>
-
+        <div class="col-md-10">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="Day">
+                        <h4>Enter Date</h4>
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="Day">
+                        <h4>Enter Day</h4>
+                        <input type="text" placeholder="Day ">
+                    </div> 
+                </div>
+                <div class="col-md-4">
+                    <div class="Day">
+                        <h4>Enter Meal</h4>
+                        <input type="text" placeholder="Breakfast">
+                    </div>                     
+                </div>
+                <div class="col-md-4">
+                    <div class="Day">
+                        <h4>Enter food type</h4>
+                        <input type="text" placeholder="FoodType">
+                    </div>                     
+                </div>                             
+            </div>
         </div>
-        <div class="col-md-3">
-            
-        </div>
-    </div>
-    <div class="container">
-    
     </div>
     <script src="dashboard.js"></script>
 </body>
