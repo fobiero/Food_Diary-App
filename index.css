@@ -51,7 +51,7 @@ nav ul li a{
 .signin{
   display: flex;
   justify-content: space-around;
-  margin-left: 5rem;
+  margin-left: 15rem;
   margin-top: 1rem;
 }
 .signin li {
@@ -62,4 +62,35 @@ nav ul li a{
   color: black;
   
 }
-
+.introtext{
+  margin-top: 10rem;
+}
+.introtext h1{
+  font-weight: bolder;
+}
+.introtext p {
+  font-size: large;
+}
+.introtext button{
+  height: 50px;
+  width: 200px;
+  color: white;
+  font-weight: bold;
+  background-color:#39B54A;
+  /* border-radius: 25px; */
+}
+.intro{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3rem;
+}
+.img-intro{
+  margin-right: 5rem ;
+}
+.work{
+  padding-top: 3rem;
+  text-align: center;
+}
+.work p{
+  padding-top: 2rem;
+}
