@@ -14,7 +14,7 @@ body {
 }
 
 .hero {
-    padding: 2rem 3rem;
+    padding: 4rem 3rem;
     align-items: center;
 }
 
@@ -42,6 +42,27 @@ body {
     color: #fff;
     border: none;
     font-size: 1.2rem;
+}
+
+nav {
+    padding: 2rem 0;
+}
+
+.signIn {
+    border: none;
+    background: none;
+    font-size: 1.3rem;
+}
+
+.navbar-light .navbar-brand {
+    margin-right: 25rem;
+    font-size: 2rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 1.4rem;
+    margin: 0 1rem;
+    color: #000;
 }
 
 
@@ -271,4 +292,18 @@ footer h3 {
     border-radius: 10px;
     background-color: var(--pri-color);
     padding: 6rem 1.2rem 1.2rem 1.2rem;
+}
+
+
+/* CANVAS  */
+
+canvas {
+    margin: 4rem;
+    width: 100%;
+    height: auto;
+}
+
+#stats {
+    color: var(--pri-color);
+    font-weight: bolder;
 }
