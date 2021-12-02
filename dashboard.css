@@ -52,6 +52,9 @@ nav li{
    color: black;
    text-decoration: bold;  
 }
+nav a{
+    text-decoration: none;
+}
 .col-md-10{
     padding: 30px 20px 30px 20px;
 }

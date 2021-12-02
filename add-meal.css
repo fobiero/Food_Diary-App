@@ -46,8 +46,7 @@ nav ul li{
    color: black;
    text-decoration: bold; 
 }
-nav ul li a{
-    list-style: none;
+nav a{
     text-decoration: none;
 }
 .col-md-10{
