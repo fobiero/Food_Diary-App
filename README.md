@@ -14,6 +14,7 @@ Food Diary is a web application that lets us keep track  all the food items we c
 ## Setup Instructions
 
 * Mysql Database
+* setup all your connection details
 
 
 ## Technologies used
