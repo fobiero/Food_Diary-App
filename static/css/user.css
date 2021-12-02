@@ -217,8 +217,31 @@ nav {
 /* DASHBOARD  */
 
 .topnav {
+    padding: .2rem 0;
+    align-items: center;
+    /* background-color: var(--pri-color); */
+}
+
+.topnav .pg-logo a img {
+    width: 8rem;
+}
+
+.topnav .user-info {
+    align-items: center;
+    display: inline-flex;
     padding: 2rem 0;
-    background-color: var(--pri-color);
+    font-size: 1.3rem;
+}
+
+.topnav .user-info p {
+    margin-top: 1rem;
+    text-transform: capitalize;
+}
+
+.topnav .user-info i {
+    cursor: pointer;
+    font-size: 2rem;
+    padding: 0 0 0 .7rem;
 }
 
 .menu {
