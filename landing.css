@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&family=Inter&family=Lato&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Capriola&family=EB+Garamond:ital@0;1&family=Inter&family=Lato&display=swap');
 .logostyle{
   height: 80px;
   width: 50px;
@@ -69,7 +69,7 @@ nav ul li a:hover{
   font-size: large;
 }
 .introtext button{
-  transition: 0.4s;
+  /* transition: 0.4s; */
   height: 50px;
   width: 200px;
   color: white;
@@ -85,6 +85,8 @@ nav ul li a:hover{
   justify-content: space-around;
   margin-top: 3rem;
   padding: 0 4rem;
+  font-family: 'Inter', sans-serif;
+  
 }
 .img-intro{
   margin-right: 5rem ;
@@ -92,6 +94,10 @@ nav ul li a:hover{
 .work{
   padding-top: 3rem;
   text-align: center;
+  font-family: 'Inter', sans-serif;
+}
+.work h2{
+  font-family: 'Capriola', sans-serif;
 }
 .work p{
   padding-top: 2rem;
@@ -104,15 +110,18 @@ nav ul li a:hover{
 .whatwedo{
 width: 100%;
 padding-top: 2rem;
+font-family: 'Inter', sans-serif;
 }
 .whatwedobox{
   box-shadow: 3px 3px 3px 3px grey;
   border-radius: 25px;
   height: 300px;
+  margin-left: 4rem;
 }
 .whatwedobox h4{
   padding-top: 1rem;
   text-align: center;
+  font-family: 'Capriola', sans-serif;
 }
 .whatwedobox p{
   text-align: center;
@@ -121,6 +130,7 @@ padding-top: 2rem;
   margin-top: 2rem;
   height: 100px;
   background-color:#39B54A ;
+  font-family: 'Inter', sans-serif;
 
   color: white;
 }
@@ -131,6 +141,7 @@ padding-top: 2rem;
 }
 .people{
   text-align: center;
+  font-family: 'Inter', sans-serif;
 }
 .people img{
   border-radius: 50%;
@@ -143,14 +154,18 @@ padding-top: 2rem;
 .blog{
   text-align: center;
   padding: 3rem 4rem;
+  font-family: 'Inter', sans-serif;
 }
 .blog h2{
   padding-bottom: 3rem;
+  font-family: 'Capriola', sans-serif;
 }
 .material-icons{
   padding-top: 0.3rem;
+  
 }
 .footer{
+  font-family: 'Inter', sans-serif;
   height: 100px;
   background-color:#39B54A  ;
   color: white;
@@ -184,6 +199,7 @@ padding-top: 2rem;
   padding-left: 1rem;
 }
 .copyright{
+ 
   background-color: #39B54A;
   color: white;
   text-align: center;
