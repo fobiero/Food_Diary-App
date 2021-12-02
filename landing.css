@@ -36,9 +36,9 @@
 }
 nav ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-top: 2rem;
-  padding-left: 1rem;
+
 }
 nav ul li{
   list-style: none;
@@ -49,25 +49,10 @@ nav ul li a{
  
 }
 nav ul li a:hover{
-  color: black;
+ background-color: thistle;
+ text-decoration: none;
  
  }
-.signin{
-  display: flex;
-  justify-content: center;
-  margin-top: 1rem;
-}
-.signini{
-  padding-left: 1rem;
-}
-.signin li {
-  padding-top: 1rem;
-  list-style: none;
-}
-.signin li a{
-  color: black;
-  
-}
 .introtext{
   margin-top: 10rem;
 }
