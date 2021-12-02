@@ -4,6 +4,8 @@ const path = require('path');
 const Datastore = require('nedb');
 const { request } = require('express');
 
+const pool = require('./db')
+
 app.use(express.static(path.join(__dirname, './static')));
 
 app.get('/', (req, res) => {

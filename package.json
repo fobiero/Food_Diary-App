@@ -19,6 +19,7 @@
     "homepage": "https://github.com/fobiero/Food_Diary-App#readme",
     "dependencies": {
         "express": "^4.17.1",
+        "mysql": "^2.18.1",
         "nedb": "^1.8.0",
         "pg": "^8.7.1"
     },
