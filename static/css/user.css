@@ -54,9 +54,10 @@ nav {
     font-size: 1.3rem;
 }
 
-.navbar-light .navbar-brand {
+.navbar-light .navbar-brand img {
     margin-right: 25rem;
-    font-size: 2rem;
+    width: 6rem;
+    /* font-size: 2rem; */
 }
 
 .navbar-light .navbar-nav .nav-link {
