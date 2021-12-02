@@ -69,12 +69,16 @@ nav ul li a:hover{
   font-size: large;
 }
 .introtext button{
+  transition: 0.4s;
   height: 50px;
   width: 200px;
   color: white;
   font-weight: bold;
   background-color:#39B54A;
-  /* border-radius: 25px; */
+  border-radius: 10px; 
+}
+.introtext button:hover{
+  background-color: lightgray;
 }
 .intro{
   display: flex;
