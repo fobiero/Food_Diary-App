@@ -20,6 +20,10 @@ app.get('/dashboard', (req, res) => {
     res.sendFile(path.join(__dirname, './static/dashboard.html'));
 });
 
+app.get('/dashboard', (req, res) => {
+    res.sendFile(path.join(__dirname, './static/blog.html'));
+});
+
 app.post('/users', (req, res) => {
         const data = request.body;
         database.insert(data);
