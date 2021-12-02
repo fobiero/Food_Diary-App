@@ -20,8 +20,12 @@ app.get('/dashboard', (req, res) => {
     res.sendFile(path.join(__dirname, './static/dashboard.html'));
 });
 
-app.get('/dashboard', (req, res) => {
+app.get('/blog', (req, res) => {
     res.sendFile(path.join(__dirname, './static/blog.html'));
+});
+
+app.get('/login', (req, res) => {
+    res.sendFile(path.join(__dirname, './static/login.html'));
 });
 
 app.post('/users', (req, res) => {

@@ -5,13 +5,16 @@ $(document).ready(() => {
         const pass = $('#pass').val();
         const cpass = $('#cpass').val();
 
-        if (pass == cpass) {
-            alert('Registration Sucessful! Login')
-            localStorage.setItem("pass", pass);
+        if (pass == '' || cpass == '') {
+            alert("Empty fields")
+        } else if (pass != cpass) {
+            alert('Passwords does not match!')
         } else {
-            alert('Password do not match');
+            alert('registration Sucessful.!');
+            localStorage.setItem("pass", pass);
+            window.location.href = "./login.html";
         }
-    })
+    });
 
     $('#btnLog').click(() => {
         const lEmail = $('#l-email').val();
@@ -21,12 +24,9 @@ $(document).ready(() => {
         const getPass = localStorage.getItem("pass");
         if (lPass == getPass) {
             // alert('Login Successful');
-            window.location.href = "../dashboard.html";
+            window.location.href = "./dashboard.html";
         } else {
             alert('Could not Login. Check password!');
         }
-
     });
-
-
 });
