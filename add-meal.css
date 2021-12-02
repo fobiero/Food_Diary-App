@@ -75,3 +75,21 @@ nav a{
 .input-field button .fa-plus{
     color: white;
 }
+@media only screen and (min-width: 600px) {
+    *body{
+        width: auto;
+    }
+    
+  }
+  @media only screen and (max-width: 600px) {
+    *body{
+        width: auto;
+    }
+}@media only screen and (min-width: 200) {
+    *body{
+        width: auto;
+    }
+    .row{
+        width:auto;
+    }
+}
