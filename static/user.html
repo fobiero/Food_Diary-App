@@ -21,13 +21,13 @@
           </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./user.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
 
                 </ul>
                 <div class="d-flex">
-                    <button class="signIn">Sign in</button>
+                    <button class="signIn"><a href="./login.html">Sign In</a></button>
                 </div>
             </div>
         </div>
@@ -200,7 +200,7 @@
                                 </button>
                                 </h2>
                                 <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body"> This application tracks where you can input the price of each and every food item you consume. This will be given in the <a href="#">Reports Section</a>
+                                    <div class="accordion-body"> This application tracks where you can input the price of each and every food item you consume.
                                     </div>
                                 </div>
                             </div>
@@ -246,7 +246,7 @@
                                     <div class="carousel-item">
                                         <div class="ple">
                                             <i class="fas fa-quote-left" id="qte"></i>
-                                            <p>This application has an area where you can input the meal of each and every day item you consume. This will be given in the <a href="#">Reports Section.</p>
+                                            <p>This application has an area where you can input the meal of each and every day item you consume. This will be given in the Reports Section.</p>
                                             <img src="./images/perso.jpeg" alt="">
                                             <p class="p_name">John Doe</p>
                                             <div class="rates">
@@ -275,29 +275,71 @@
         </div>
     </section>
     <!-- end facts  -->
-    <footer>
+    <footer class="footer" id="contact">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <h3>Get in touch</h3>
-                    <div class="find">
-                        <i class="fas fa-envelope" id="mail"></i>
-                        <i class="fas fa-phone-alt" id="call"></i>
+                <div class="col-md-3">
+                    <div class="loc">
+                        <h3 class="footer-tle">About us</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda dolores nostrum recusandae odio ad! Sed!</p>
+                        <h5>Contact us</h5>
+                        <div class="call" id="con-info">
+                            <i class="fas fa-phone-alt"></i>
+                            <p>3569 - 987 - 8790</p>
+                        </div>
+                        <div class="email" id="con-info">
+                            <i class="fas fa-envelope"></i>
+                            <p>info@fooddiary.com</p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <h3>Social Site</h3>
-                    <div class="social">
-                        <i class="fab fa-facebook-f"></i>
-                        <i class="fab fa-twitter"></i>
-                        <i class="fab fa-linkedin-in"></i>
-                        <i class="fab fa-instagram"></i>
-                    </div>
+                <div class="col-md-3">
+                    <h3 class="footer-tle">Information</h3>
+                    <ul class="mre-info">
+                        <li><a href="#">More research</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                        <li><a href="#">Social Events</a></li>
+                    </ul>
                 </div>
+                <div class="col-md-3">
+                    <h3 class="footer-tle">Helpful Links</h3>
+                    <ul class="mre-info">
+                        <li><a href="#">Product Usage</a></li>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Private Policy</a></li>
+                        <li><a href="#">Terms & Condition</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h3 class="footer-tle">Subscribe with us</h3>
+                    <p>Get latest updates, news info and so much more by subscribing on our mailing list. See you!</p>
+                    <input type="text" placeholder="enter email" id="inp-subs"> <br>
+                    <button class="subs" onclick="subscribe()">Subscribe</button>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="dwn-footer">
+            <div class="social">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-linkedin-in"></i>
+                <i class="fab fa-instagram"></i>
             </div>
         </div>
     </footer>
 
+    <script>
+        function subscribe() {
+            const email = document.getElementById('inp-subs').value;
+            if (email == '') {
+                alert('Email is required')
+            } else {
+                alert('Thank you for Subscribing with Us!')
+            };
+        };
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="../user.js"></script>
