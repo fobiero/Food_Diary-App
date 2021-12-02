@@ -4,7 +4,7 @@
     "description": "",
     "main": "user.js",
     "scripts": {
-        "start": "nodemon user.js"
+        "start": "nodemon user"
     },
     "repository": {
         "type": "git",
@@ -19,6 +19,7 @@
     "homepage": "https://github.com/fobiero/Food_Diary-App#readme",
     "dependencies": {
         "express": "^4.17.1",
+        "nedb": "^1.8.0",
         "pg": "^8.7.1"
     },
     "devDependencies": {
