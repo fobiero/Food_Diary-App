@@ -1,5 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&family=Inter&family=Lato&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&family=Inter&display=swap');
 .logostyle{
   height: 80px;
   width: 50px;
@@ -34,6 +34,12 @@
   font-size: x-large;
   line-height: 1;
 }
+.nav-bar{
+  box-shadow:3px 3px 3px 3px  lightgray;
+  font-family: 'Lato', sans-serif;
+  /* position to be fixed */
+  
+}
 nav ul {
   display: flex;
   justify-content: space-around;
@@ -49,7 +55,7 @@ nav ul li a{
  
 }
 nav ul li a:hover{
- background-color: thistle;
+ background-color: lightgray;
  text-decoration: none;
  
  }
