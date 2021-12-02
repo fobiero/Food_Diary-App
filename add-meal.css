@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Indie+Flower&display=swap');
 header{
     background-color: #39B54A;
@@ -20,6 +21,7 @@ header input{
     border: solid white;
     border-radius: 4px;
 }
+
 header input::placeholder{
     color:white;
     text-align: center;
@@ -30,22 +32,25 @@ nav{
     height: 100vh;
     display: block;
 }
-nav li{
+nav ul li{
    list-style: none;
    padding: 30px 20px;
    text-align: center;
    font-size: 18px;
    color: black;
-   text-decoration: bold;  
+   text-decoration: bold; 
+}
+nav ul li a{
+    list-style: none;
+    text-decoration: none;
 }
 .col-md-10{
-    padding: 30px 20px;
+    padding: 30px 0px 0px 20px;
 }
-.col-md-4 input{
+.col-md-10 input{
     height: 4em;
     width: 200px;
     border-color: #39B54A;
     border-radius: 8px;
     text-align: center;
 }
-
