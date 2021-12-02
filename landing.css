@@ -155,3 +155,41 @@ padding-top: 2rem;
 .material-icons{
   padding-top: 0.3rem;
 }
+.footer{
+  height: 100px;
+  background-color:#39B54A  ;
+  color: white;
+  font-weight: bold;
+}
+.getintouch{
+  line-height: 0;
+}
+.iconssec{
+  line-height: 0;
+}
+.flexing1 {
+  display: flex;
+  padding-top: 0rem;
+}
+.flexing2{
+  display: flex;
+  padding-top: 2.3rem;
+}
+.flexing1 p {
+  padding-top: 1.8rem;
+}
+.flexing2 p {
+  padding-top: 0.8rem;
+}
+
+.socialicons{
+  padding-top: 0.8rem;
+}
+.socialicons i {
+  padding-left: 1rem;
+}
+.copyright{
+  background-color: #39B54A;
+  color: white;
+  text-align: center;
+}
