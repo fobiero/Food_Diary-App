@@ -24,6 +24,15 @@ header input::placeholder{
     color:white;
     text-align: center;
 }
+header span i{
+    height: 45px;
+    background-color: black;
+    width: 45px;
+    border-radius: 50%;
+}
+header span i .fa fa-user{
+    height: 50px;
+}
 nav{
     background-color: grey;
     width: 100%;
