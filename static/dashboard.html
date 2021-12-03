@@ -41,7 +41,7 @@
                             <div class="container">
                                 <div class="row">
                                     <div class="col-md-2">
-                                        <div class="cardView">
+                                        <div class="cardView" id="diet-value">
                                             <div class="diet">
                                                 <i class="fas fa-utensils"></i>
                                                 <h4>Diet</h4>
@@ -49,7 +49,7 @@
                                         </div>
                                     </div>
                                     <div class="col-md-2">
-                                        <div class="cardView">
+                                        <div class="cardView" id="excer">
                                             <div class="train">
                                                 <i class="fas fa-running"></i>
                                                 <h4>Exercise</h4>
@@ -91,24 +91,28 @@
                         <div class="addFood">
                             <h3>Add food</h3>
                             <form id="food-form">
-                                <div class="form-group">
-                                    <label for="day">Day</label>
-                                    <input type="text" id="day" class="form-control" required>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-4 form-group">
+                                            <label for="day">Day</label>
+                                            <input type="text" id="day" class="form-control">
+                                        </div>
+                                        <div class=" col-md-4 form-group">
+                                            <label for="food">Choose Meal Type</label> <br>
+                                            <select name="" id="foodOption">
+                                                <option value="Breakfast">Breakfast</option>
+                                                <option value="Lunch">Lunch</option>
+                                                <option value="Snack">Snack</option>
+                                                <option value="Dinner">Dinner</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-4 form-group">
+                                            <label for="meal">Diet</label>
+                                            <input type="text" id="menu" class="form-control">
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="form-group">
-                                    <label for="food">Choose Meal Type</label> <br>
-                                    <select name="" id="foodOption">
-                                        <option value="Breakfast">Breakfast</option>
-                                        <option value="Lunch">Lunch</option>
-                                        <option value="Snack">Snack</option>
-                                        <option value="Dinner">Dinner</option>
-                                    </select>
-                                </div>
-                                <div class="form-group">
-                                    <label for="meal">Diet</label>
-                                    <input type="text" id="menu" class="form-control" required>
-                                </div>
-                                <input type="submit" value="Add meal" id="addFoods">
+                                <input type="submit" class="submit" value="Add meal" id="addFoods">
                             </form>
                         </div>
                     </div>
@@ -123,6 +127,11 @@
                                         <th>food choice</th>
                                     </tr>
                                 </thead>
+                                <tbody id="food-choice">
+                                    <td>Monday</td>
+                                    <td>Breakfast</td>
+                                    <td>COffe & Whute break</td>
+                                </tbody>
                             </table>
                         </div>
                     </div>

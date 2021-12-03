@@ -9,7 +9,17 @@ $(document).ready(() => {
 
         const loadData = `<tr> <td>${day}</td> <td>${type}</td> <td>${menu}</td> </tr>`;
         $('tbody').append(loadData);
-        // localStorage.setItem("loadData", loadData);
+
+        localStorage.setItem("loadData", loadData);
+    })
+
+    $('#diet-value').click(() => {
+        $('canvas').hide();
+        $('dietTable').show();
+    });
+
+    $('#excer').click(() => {
+
     })
 })
 
