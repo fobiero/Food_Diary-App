@@ -2,10 +2,10 @@
 ## Food Diary App
 
 ### collaborators
-* Felix Obiero - Scram Master
-* Nobella
-* Dominic Korir
-* David Rono
+* Felix Obiero - (Dashbord Backend)
+* Nobella - (LandingPage FrontEnd)
+* Dominic Korir - (User Authentication )
+* David Rono - (Dashboard Design)
 
 ## Description
 
