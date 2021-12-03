@@ -10,18 +10,28 @@ $(document).ready(() => {
         const loadData = `<tr> <td>${day}</td> <td>${type}</td> <td>${menu}</td> </tr>`;
         $('tbody').append(loadData);
 
-        localStorage.setItem("loadData", loadData);
+        // localStorage.setItem("loadData", loadData);
     })
 
     $('#diet-value').click(() => {
-        $('canvas').hide();
-        $('dietTable').show();
+        $('#data_view').show();
+        $('#tabular').hide();
+        $('#exc').hide();
     });
 
+    $('#stats').click(() => {
+        $('#data_view').hide();
+        $('#tabular').show();
+        $('#exc').hide();
+    });
     $('#excer').click(() => {
+        $('#data_view').hide();
+        $('#tabular').hide();
+        $('#exc').show();
 
-    })
-})
+    });
+
+});
 
 const ctx = document.getElementById('chart').getContext('2d');
 const myChart = new Chart(ctx, {

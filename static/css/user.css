@@ -248,7 +248,6 @@ nav {
 .options {
     background-color: var(--sec-color);
     padding: 4rem 0;
-    height: 80vh;
 }
 
 .cardView {
@@ -288,6 +287,20 @@ select {
 }
 
 .dietTable {
+    display: none;
+}
+
+.samplePdf img {
+    width: 600px;
+    height: 300px;
+    cursor: pointer;
+}
+
+#data_view {
+    display: none;
+}
+
+#exc {
     display: none;
 }
 
