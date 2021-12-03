@@ -9,9 +9,7 @@ $(document).ready(() => {
 
         const loadData = `<tr> <td>${day}</td> <td>${type}</td> <td>${menu}</td> </tr>`;
         $('tbody').append(loadData);
-
-        // localStorage.setItem("loadData", loadData);
-    })
+    });
 
     $('#diet-value').click(() => {
         $('#data_view').show();
@@ -28,7 +26,6 @@ $(document).ready(() => {
         $('#data_view').hide();
         $('#tabular').hide();
         $('#exc').show();
-
     });
 
 });
