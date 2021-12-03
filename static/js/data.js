@@ -1,3 +1,18 @@
+$(document).ready(() => {
+    $('#addFoods').click((e) => {
+        e.preventDefault();
+        const day = $('#day').val();
+        const type = $('#foodOption').val();
+        const menu = $('#menu').val();
+
+        // alert(menu);
+
+        const loadData = `<tr> <td>${day}</td> <td>${type}</td> <td>${menu}</td> </tr>`;
+        $('tbody').append(loadData);
+        // localStorage.setItem("loadData", loadData);
+    })
+})
+
 const ctx = document.getElementById('chart').getContext('2d');
 const myChart = new Chart(ctx, {
     type: 'bar',

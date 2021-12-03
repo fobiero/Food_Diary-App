@@ -227,6 +227,7 @@ nav {
 }
 
 .topnav .user-info {
+    text-align: center;
     align-items: center;
     display: inline-flex;
     padding: 2rem 0;
@@ -244,27 +245,10 @@ nav {
     padding: 0 0 0 .7rem;
 }
 
-.menu {
-    color: var(--sec-color);
-}
-
-.menu ul li {
-    list-style: none;
-    padding: 1rem 0;
-    font-size: 1.3rem;
-    border-bottom: 1px solid #eee;
-}
-
-.menu ul li a {
-    text-decoration: none;
-    color: #000;
-    text-transform: capitalize;
-}
-
 .options {
     background-color: var(--sec-color);
     padding: 4rem 0;
-    height: 100vh;
+    height: 80vh;
 }
 
 .cardView {
@@ -276,6 +260,10 @@ nav {
     padding: 6rem 1.2rem 1.2rem 1.2rem;
 }
 
+.cardView i {
+    font-size: 2rem;
+}
+
 .cardView-active {
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     cursor: pointer;
@@ -283,6 +271,10 @@ nav {
     border-radius: 10px;
     background-color: var(--pri-color);
     padding: 6rem 1.2rem 1.2rem 1.2rem;
+}
+
+.dietTable {
+    /* display: none; */
 }
 
 
@@ -369,6 +361,10 @@ canvas {
     margin: 4rem;
     width: 100%;
     height: auto;
+}
+
+#chart {
+    display: none;
 }
 
 #stats {

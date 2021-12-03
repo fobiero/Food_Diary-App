@@ -35,50 +35,32 @@
     <div class="dashboard">
         <div class="container">
             <div class="row">
-                <div class="col-md-2">
-                    <div class="menu">
-                        <ul>
-                            <li><a href="#">Daily</a></li>
-                            <li><a href="#">week</a></li>
-                            <li><a href="#">month</a></li>
-                            <li><a href="#" id="stats">stats</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-10">
+                <div class="col-md-12">
                     <div class="options">
                         <div class="options-menu">
                             <div class="container">
                                 <div class="row">
-                                    <div class="col-md-3">
+                                    <div class="col-md-2">
                                         <div class="cardView">
                                             <div class="diet">
-                                                <h4>Diet is key</h4>
-                                                <em>recomended foods</em>
+                                                <i class="fas fa-utensils"></i>
+                                                <h4>Diet</h4>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-md-2">
+                                        <div class="cardView">
+                                            <div class="train">
+                                                <i class="fas fa-running"></i>
+                                                <h4>Exercise</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
                                         <div class="cardView-active">
-                                            <div class="meal-break">
-                                                <h4>Breakfast</h4>
-                                                <em>recomended foods</em>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <div class="cardView">
-                                            <div class="miel-lunch">
-                                                <h4>Lunch</h4>
-                                                <em>recomended foods</em>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <div class="cardView">
-                                            <div class="meal-dinner">
-                                                <h4>Dinner</h4>
-                                                <em>recomended foods</em>
+                                            <div class="stats">
+                                                <i class="fas fa-signal"></i>
+                                                <h4>Stats</h4>
                                             </div>
                                         </div>
                                     </div>
@@ -101,6 +83,53 @@
             </div>
         </div>
         <!-- end menu tabs  -->
+        <!-- DIET TABLE  -->
+        <div class="dietTable mt-4" id="dietTable">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="addFood">
+                            <h3>Add food</h3>
+                            <form id="food-form">
+                                <div class="form-group">
+                                    <label for="day">Day</label>
+                                    <input type="text" id="day" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="food">Choose Meal Type</label> <br>
+                                    <select name="" id="foodOption">
+                                        <option value="Breakfast">Breakfast</option>
+                                        <option value="Lunch">Lunch</option>
+                                        <option value="Snack">Snack</option>
+                                        <option value="Dinner">Dinner</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="meal">Diet</label>
+                                    <input type="text" id="menu" class="form-control" required>
+                                </div>
+                                <input type="submit" value="Add meal" id="addFoods">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="showMeal">
+                            <h3>Show Food </h3>
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>Day</th>
+                                        <th>Meal type</th>
+                                        <th>food choice</th>
+                                    </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END DIET TABLE  -->
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="./js/data.js"></script>
