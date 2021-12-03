@@ -2,7 +2,7 @@
 ## Food Diary App
 
 ### collaborators
-* Felix Obiero
+* Felix Obiero - Scram Master
 * Nobella
 * Dominic Korir
 * David Rono
